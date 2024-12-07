@@ -9,7 +9,6 @@ body{
 header{
     background-color: #00487C;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     padding-left: 1%;
@@ -24,21 +23,7 @@ h1{
     width: 100fr;
     color: white;
     display: flex;
-    justify-self: flex-end;
-}
-
-.nav-toggle:before{
-    content:"\2261";
-    color: white;
-    display: flex;
-    align-items: center;
-}
-
-
-.nav-toggle.active:before{
-    content:"\78";
-    display: flex;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 a{
@@ -166,10 +151,23 @@ footer{
     header{
         background-color: #00487C;
         display: flex;
-        flex-direction: row;
         align-items: center;
         padding-left: 1%;
         padding-right: 1%;
+        justify-content: space-between;
+    }
+    ul{
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+
+    }
+    li{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 3%;
+
+
     }
     h1{
         color: white;
