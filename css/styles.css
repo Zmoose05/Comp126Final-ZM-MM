@@ -33,6 +33,7 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 3%;
 }
 li{
     display: flex;
@@ -40,7 +41,7 @@ li{
     padding: 1%;
     font-family: "Merriweather", serif;
 }
-.nav-collapse{
+.navbar{
     padding:1%;
     width: 100fr;
     color: white;
@@ -83,6 +84,9 @@ h2{
     font-style: bold;
     font-size: 24pt;
     }
+#logo{
+    max-height: 150px;
+}
 .main-text{
         display: flex;
         justify-content: center;
@@ -94,6 +98,15 @@ h2{
     justify-content: center;
     padding-left: 2%;
     text-align: center;
+}
+.ehapimage{
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    height: 250px;
+    align-content: center;
+    padding-bottom:5%;
+    padding-left:12.5%;
 }
 .main-button{
     display: flex;
@@ -153,17 +166,6 @@ input{
 }
 input:hover{
     border-color:#4BB3FD
-}
-.images{
-    padding-top: 8%;
-    padding-left: 4%;
-    padding-right: 4%;
-    display: flex;
-    flex-direction: column;
-}
-img{
-    max-height: 150px;
-    padding-bottom: 2%;
 }
 
 @keyframes grow-animation {
@@ -347,15 +349,10 @@ width: 80%;
         display: flex;
         flex-direction: row;
     }
-    img{
-        max-height: 160px;
-        width:31.33333%;
-        padding-bottom: 0%;
-        padding:1%
     }
     @keyframes grow-animation {
         0% { transform: scale(1); }
         100% { transform: scale(1.1);
         }
     }
-    }
+    
