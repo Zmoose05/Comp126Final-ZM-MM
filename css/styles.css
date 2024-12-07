@@ -167,6 +167,7 @@ footer{
         padding-left: 1%;
         padding-right: 1%;
         justify-content: space-between;
+        padding-bottom: .25%;
     }
     ul{
         text-decoration: none;
@@ -264,6 +265,14 @@ footer{
         width:60%;
         height:100%;
         box-shadow: 2px 2px 2px 2px lightgray;
+    }
+    .logodiv{
+        height: 100px;
+    }
+    .logo{
+height: 100%;
+width: 100%;
+padding-left: 5%;
     }
     label{
         display: flex;
