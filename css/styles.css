@@ -17,8 +17,13 @@ header{
     justify-content: space-between;
 }
 h1{
-    color: white;
+    color: #2B2D42;
     padding: 1%;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 32pt;
 }
 ul{
     text-decoration: none;
@@ -65,6 +70,11 @@ h2{
     justify-content: center;
     padding-top: 2%;
     padding-bottom: 5%;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 24pt;
     }
 .main-text{
         display: flex;
@@ -161,6 +171,11 @@ footer{
     padding-left: 1%;
 }
 
+p{
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+}
 
    @media screen and (min-width: 769px){
     body{
