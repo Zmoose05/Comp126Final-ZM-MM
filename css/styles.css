@@ -43,7 +43,7 @@ li{
 }
 .navbar{
     padding:1%;
-    width: 100fr;
+    width: fit-content;
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -231,7 +231,7 @@ width: 80%;
         color: white;
         padding: 1%;
     }
-    .nav-collapse{
+    .navbar{
         padding:1%;
         width: 100fr;
         color: white;
