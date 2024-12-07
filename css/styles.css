@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-color: aliceblue;
+}
+header{
+    background-color: #00487C;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+h1{
+    color: white;
+    padding: 1%;
+}
+.nav-collapse{
+    padding:1%;
+    width: 100fr;
+    color: white;
+    display: flex;
+    justify-self: flex-end;
+}
+
+.nav-toggle:before{
+    content:"\2261";
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-toggle.active:before{
+    content:"\78";
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: aliceblue;
+}
+.topsection{
+    display: flex;
+flex-direction: column;
+justify-items: center;
+    max-width: 100%;
+    padding-top: 5%;
+    box-shadow: 10px 2.5px lightgray;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    }
+.main-text{
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        padding-bottom: 5%;
+}
+.main-button{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 8%;
+    width: 100%;
+    color: white;
+    justify-content: center;
+}
+.topbutton{
+    background-color: #00487C;
+    color: white;
+    padding: 1%;
+    transition: 350ms;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.topbutton:hover{
+    background-color: #4BB3FD;
+}
+.emailbox{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 2.5px lightgray;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+input{
+    padding: 3%;
+    padding-top: 5%;
+
+}
+.submitbutton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to right, #4BB3FD 0%, #00487C 50%, #011829 100%);
+    background-size: 200% auto;
+    border-radius: 25px;
+    padding:1.5%;
+    color: white;
+    transition: all .5s;
+}
+.submitbutton:hover{
+    background-position: right center;
+}
+.submitposition{
+    padding-top:2%;
+    padding-bottom:8%;
+}
+input:hover{
+    border-color:#4BB3FD
+}
+.images{
+    padding-top: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    max-height: 150px;
+    padding-bottom: 2%;
+}
+img:hover{
+    animation: grow-animation 2s;
+}
+@keyframes grow-animation {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1);
+    }
+}
+footer{
+    background-color: #00487C;
+    padding: 3%;
+    color: white;
+}
+
+
+   @media screen and (min-width: 769px){
+    body{
+        height:100%
+    }
+    header{
+        background-color: #00487C;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    h1{
+        color: white;
+        padding: 1%;
+    }
+    .nav-collapse{
+        padding:1%;
+        width: 100fr;
+        color: white;
+        display: flex;
+    a{
+        text-decoration: none;
+        display: flex;
+        color: white;
+    }
+    }
+    main{
+        background-color: aliceblue;
+    }
+    .desktop-top{
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        justify-content:center;
+        align-items: center;
+    }
+    .topsection{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0%;
+        width:40%;
+        height:100%;
+        box-shadow: 2px 2px 2px 2px lightgray;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding:2%
+        }
+    .main-text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0%;
+            padding-bottom: 0%;
+            padding:2%
+    }
+    .main-button{
+        display: flex;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right:0%;
+        width: 100%;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding:2%
+    }
+    .topbutton{
+        background-color: #00487C;
+        color: white;
+        padding: 1%;
+        transition: 350ms;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .topbutton:hover{
+        background-color: #4BB3FD;
+    }
+    .emailbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top:0%;
+        width:60%;
+        height:100%;
+        box-shadow: 2px 2px 2px 2px lightgray;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+    input{
+        padding: 1%;
+    
+    }
+
+
+    
+
+    .submitbutton{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        background: linear-gradient(to right, #4BB3FD, #00487C);
+        border-radius: 25px;
+        padding:.5%;
+        color: white;
+        transition: 0.5s ease-in-out;
+    }
+    .submitbutton:hover{
+        background:#4BB3FD
+    }
+    .submitposition{
+        padding-top:2%;
+        padding-bottom:1%;
+    }
+    input:hover{
+        border-color:#4BB3FD
+    }
+    .images{
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        max-height: 160px;
+        width:31.33333%;
+        padding-bottom: 0%;
+        padding:1%
+    }
+    img:hover{
+        animation: grow-animation 2s;
+    }
+    @keyframes grow-animation {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.1);
+        }
+    }
+    footer{
+        background-color: #00487C;
+        padding: 2%;
+        color: white;
+    }
+    }
