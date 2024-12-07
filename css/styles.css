@@ -4,6 +4,7 @@
 }
 body{
     height:100%;
+    max-width: 100%;
     background-color: aliceblue;
 }
 header{
@@ -13,9 +14,21 @@ header{
     align-items: center;
     padding-left: 1%;
     padding-right: 1%;
+    justify-content: space-between;
 }
 h1{
     color: white;
+    padding: 1%;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    justify-content: flex-end;
     padding: 1%;
 }
 .nav-collapse{
@@ -85,7 +98,7 @@ h2{
     padding-top: 8%;
     padding-left: 5%;
     padding-right: 5%;
-    box-shadow: 10px 2.5px lightgray;
+    box-shadow: 5% 2.5px lightgray;
 }
 label{
     display: flex;
@@ -160,14 +173,11 @@ footer{
         text-decoration: none;
         display: flex;
         flex-direction: row;
-
     }
     li{
         display: flex;
         justify-content: flex-end;
         padding-right: 3%;
-
-
     }
     h1{
         color: white;
