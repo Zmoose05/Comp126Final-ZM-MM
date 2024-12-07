@@ -27,6 +27,7 @@ h1{
     text-decoration:underline ;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 ul{
     text-decoration: none;
@@ -84,6 +85,7 @@ h2{
     font-weight: 500;
     font-style: bold;
     font-size: 24pt;
+    text-align: center;
     }
 #logo{
     max-height: 150px;
@@ -92,6 +94,7 @@ h2{
         display: flex;
         justify-content: center;
         padding-top: 1%;
+        text-align: center;
         padding-bottom: 5%;
 }
 .scheduling-text{
@@ -99,6 +102,7 @@ h2{
     justify-content: center;
     padding-left: 2%;
     text-align: center;
+    padding-bottom: 5%;
 }
 .ehapimage{
     display: flex;
@@ -129,13 +133,11 @@ h2{
 .topbutton:hover{
     background-color: #4BB3FD;
 }
-.emailbox{
+.requestform{
     display: flex;
     flex-direction: column;
-    padding-top: 8%;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-shadow: 5% 2.5px lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 label{
     display: flex;
@@ -162,8 +164,7 @@ input{
     background-position: right center;
 }
 .submitposition{
-    padding-top:2%;
-    padding-bottom:8%;
+padding: 2% 2% 5% 2%;
 }
 input:hover{
     border-color:#4BB3FD
