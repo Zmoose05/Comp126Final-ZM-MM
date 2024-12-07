@@ -166,7 +166,6 @@ footer{
     header{
         background-color: #00487C;
         display: flex;
-        justify-content: space-between;
         flex-direction: row;
         align-items: center;
         padding-left: 1%;
@@ -181,11 +180,14 @@ footer{
         width: 100fr;
         color: white;
         display: flex;
+    }
     a{
         text-decoration: none;
         display: flex;
         color: white;
     }
+    a:hover{
+        text-decoration: underline;
     }
     main{
         background-color: aliceblue;
@@ -265,10 +267,6 @@ footer{
         padding: 1%;
     
     }
-
-
-    
-
     .submitbutton{
         display: flex;
         justify-content: center;
