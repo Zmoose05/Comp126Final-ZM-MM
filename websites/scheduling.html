@@ -44,8 +44,7 @@
 <p class="scheduling-text">
   Please fill out the form below and we will contact you at a later time to confirm the details of your scheduling!
 </p>
-<div class="emailbox">
-  <p>Join our mailing list for updates!</p>
+<div class="requestform">
   <form method="POST" action="/">
   <label>Name:
     <input type="text" name="userid">
@@ -53,7 +52,6 @@
 <label> Phone Number:
   <input type="tel" name="Phone">
 </label>
-	
 <fieldset>
   <legend>Needed Service(s)</legend>
   <label>
@@ -73,6 +71,57 @@
   Filler Service
 </label>
 </fieldset>
+<label>
+  Requested Date:<br>
+Month <br>
+<select>
+  <option value="se">
+    Select
+    </option>
+<option value="Ja">
+January
+</option>
+<option value="Fe">
+  February
+  </option>
+  <option value="Ma">
+    March
+    </option>
+    <option value="Ap">
+      April
+      </option>
+      <option value="my">
+        May
+        </option>
+        <option value="jn">
+          June
+          </option>
+          <option value="jy">
+            July
+            </option>
+            <option value="au">
+              August
+              </option>
+              <option value="se">
+                September
+                </option>
+                <option value="oc">
+                  October
+                  </option>
+                  <option value="no">
+                    November
+                    </option>
+                    <option value="de">
+                      December
+                      </option>
+</select>
+  <label>Day
+    <input type="number" name="day">
+  </label>
+  <hr>
+<label>Description of Issue:
+  <input type="text" name="Description">
+</label>
 <div class="submitposition">
 <button class="submitbutton" type="submit">SUBMIT</button>
 </div>
