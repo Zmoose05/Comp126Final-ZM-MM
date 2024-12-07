@@ -8,7 +8,7 @@ body{
     background-color: aliceblue;
 }
 header{
-    background-color: #00487C;
+    background-color: #8d99ae;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -151,7 +151,7 @@ img:hover{
     }
 }
 footer{
-    background-color: #00487C;
+    background-color: #8d99ae;
     padding: 3%;
     color: white;
 }
