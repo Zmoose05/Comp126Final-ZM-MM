@@ -24,6 +24,9 @@ h1{
     font-weight: 600;
     font-style: bold;
     font-size: 32pt;
+    text-decoration:underline ;
+    display: flex;
+    justify-content: center;
 }
 ul{
     text-decoration: none;
@@ -53,7 +56,10 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
+.about-text{
+    display: flex;
+    justify-content: center;
+}
 main{
     background-color: aliceblue;
 }
@@ -63,7 +69,6 @@ flex-direction: column;
 justify-items: center;
     max-width: 100%;
     padding-top: 5%;
-    box-shadow: 10px 2.5px lightgray;
 }
 h2{
     display: flex;
