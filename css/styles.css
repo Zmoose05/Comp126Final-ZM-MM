@@ -38,6 +38,7 @@ li{
     display: flex;
     justify-content: flex-end;
     padding: 1%;
+    font-family: "Merriweather", serif;
 }
 .nav-collapse{
     padding:1%;
