@@ -142,9 +142,7 @@ img{
     max-height: 150px;
     padding-bottom: 2%;
 }
-img:hover{
-    animation: grow-animation 2s;
-}
+
 @keyframes grow-animation {
     0% { transform: scale(1); }
     100% { transform: scale(1.1);
@@ -152,8 +150,15 @@ img:hover{
 }
 footer{
     background-color: #2B2D42;
-    padding: 3%;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.footertext{
+    padding-left: 1%;
 }
 
 
@@ -164,15 +169,23 @@ footer{
     header{
         display: flex;
         align-items: center;
-        padding-left: 1%;
+        padding-left: 0%;
         padding-right: 1%;
         justify-content: space-between;
         padding-bottom: .25%;
+    }
+    .logodiv{
+        max-height: 100%;
+    }
+    #logo{
+height: 80%;
+width: 80%;
     }
     ul{
         text-decoration: none;
         display: flex;
         flex-direction: row;
+        padding-right:5%;
     }
     li{
         display: flex;
@@ -266,14 +279,6 @@ footer{
         height:100%;
         box-shadow: 2px 2px 2px 2px lightgray;
     }
-    .logodiv{
-        height: 100px;
-    }
-    #logo{
-height: 100%;
-width: 100%;
-padding-left: 10%;
-    }
     label{
         display: flex;
         flex-direction: column;
@@ -316,16 +321,9 @@ padding-left: 10%;
         padding-bottom: 0%;
         padding:1%
     }
-    img:hover{
-        animation: grow-animation 2s;
-    }
     @keyframes grow-animation {
         0% { transform: scale(1); }
         100% { transform: scale(1.1);
         }
-    }
-    footer{
-        padding: 2%;
-        color: white;
     }
     }
