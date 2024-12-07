@@ -61,6 +61,7 @@ a:hover{
 .about-text{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 main{
     background-color: aliceblue;
