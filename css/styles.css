@@ -54,6 +54,9 @@ li{
     flex-direction: column;
     align-items: center;
     }
+.ehapimage{
+max-width: 60%;
+}
 a{
     text-decoration: none;
     display: flex;
@@ -75,7 +78,7 @@ main{
     display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+text-align: center;
     max-width: 100%;
     padding-top: 5%;
     padding-bottom:5%;
@@ -147,6 +150,9 @@ max-width: 40%;
     padding-bottom: 5%;
     color: white;
     justify-content: center;
+}
+#indexflex{
+    max-width: 100%;
 }
 #indextop{
     display: flex;
@@ -268,7 +274,10 @@ footer{
 .footertext{
     padding-left: 1%;
 }
-
+#contactpad{
+max-width: 90%;
+padding-left: 5%;
+}
 p{
         font-family: "Merriweather", serif;
         font-weight: 400;
@@ -351,4 +360,13 @@ max-width: 40%;
 .requested-date{
     padding-bottom: 2%;
 }
- }
+.topsection{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    max-width: 100%;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+   }
