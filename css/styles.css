@@ -371,3 +371,17 @@ align-items: center;
     padding-bottom:5%;
 }
    }
+=======
+
+.topbutton{
+    background-color: #ef233c;
+    color: black;
+    padding: 2%;
+    width: 100px;
+    transition: 150ms;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+ }
+>>>>>>> 11e7957edfe676d61c2b40a91909e753de435c5e
