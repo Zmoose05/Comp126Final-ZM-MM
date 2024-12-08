@@ -190,8 +190,20 @@ max-width: 40%;
 label{
     display: flex;
     flex-direction: column;
-    padding: 4%;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
 }
+
+legend{
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+}
+
+option{
+text-align: center;}
+
 input{
     padding: 3%;
     padding-top: 5%;
@@ -324,4 +336,19 @@ max-width: 40%;
         padding-bottom: 1%;
         text-decoration: underline;
     }
+
+    .scheduling-text{
+        padding-bottom: 3%;
+    }
+
+
+    .requestform{
+        width: 95%;
+        text-align: center;
+        box-sizing: 5px 5px 5px 5px lightgray;
+    }
+
+.requested-date{
+    padding-bottom: 2%;
 }
+ }
