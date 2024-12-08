@@ -127,8 +127,8 @@ h2{
     justify-content: center;
 }
 .topbutton{
-    background-color: #00487C;
-    color: white;
+    background-color: #ef233c;
+    color: black;
     padding: 2%;
     transition: 350ms;
     border-radius: 25px;
@@ -136,7 +136,9 @@ h2{
     justify-content: center;
 }
 .topbutton:hover{
-    background-color: #4BB3FD;
+    background-color: #8d99ae;
+    color: white;
+    text-decoration: none;
 }
 .requestform{
     display: flex;
@@ -176,7 +178,7 @@ input{
     display: flex;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(to right, #4BB3FD 0%, #00487C 50%, #011829 100%);
+    background: linear-gradient(to right, #ef233c 0%, #D90429 50%, #2B2D42 100%);
     background-size: 200% auto;
     border-radius: 25px;
     padding:1.5%;
@@ -190,7 +192,7 @@ input{
 padding: 2% 2% 5% 2%;
 }
 input:hover{
-    border-color:#4BB3FD
+    border-color:#ef233c
 }
 
 @keyframes grow-animation {
@@ -318,16 +320,11 @@ width: 80%;
         padding:2%
     }
     .topbutton{
-        background-color: #00487C;
-        color: white;
         padding: 1%;
         transition: 350ms;
         border-radius: 25px;
         display: flex;
         justify-content: center;
-    }
-    .topbutton:hover{
-        background-color: #4BB3FD;
     }
     .emailbox{
         display: flex;
@@ -351,21 +348,14 @@ width: 80%;
         display: flex;
         justify-content: center;
         width:100%;
-        background: linear-gradient(to right, #4BB3FD, #00487C);
         border-radius: 25px;
         padding:.5%;
         color: white;
-        transition: 0.5s ease-in-out;
     }
-    .submitbutton:hover{
-        background:#4BB3FD
-    }
+
     .submitposition{
         padding-top:2%;
         padding-bottom:1%;
-    }
-    input:hover{
-        border-color:#4BB3FD
     }
     .images{
         padding-top: 0%;
