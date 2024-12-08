@@ -107,7 +107,6 @@ h2{
 .ehapimage{
     max-width: 75%;
     height: 250px;
-    padding-left: 12.5%;
 }
 .segue{
     display: flex;
@@ -122,6 +121,11 @@ h2{
     padding-bottom: 5%;
     color: white;
     justify-content: center;
+}
+#indextop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .topbutton{
     background-color: #ef233c;
@@ -238,150 +242,15 @@ p{
 }
 
    @media screen and (min-width: 769px){
-    body{
-        height:100%
-    }
-    header{
-        display: flex;
-        align-items: center;
-        padding-left: 0%;
-        padding-right: 1%;
-        justify-content: space-between;
-        padding-bottom: .25%;
-    }
-    .logodiv{
-        max-height: 100%;
-    }
-    #logo{
-height: 80%;
-width: 80%;
-    }
-    ul{
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        padding-right:5%;
-    }
-    li{
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 3%;
-    }
-    h1{
-        color: white;
-        padding: 1%;
-    }
-    .navbar{
-        padding:1%;
-        width: 100fr;
-        color: white;
-        display: flex;
-    }
-    a{
-        text-decoration: none;
-        display: flex;
-        color: white;
-    }
-    a:hover{
-        text-decoration: underline;
-    }
-    main{
-        background-color: aliceblue;
-    }
-    .desktop-top{
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        justify-content:center;
-        align-items: center;
-    }
-    .topsection{
-        display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding-top: 0%;
-        width:40%;
-        height:100%;
-        box-shadow: 2px 2px 2px 2px lightgray;
-    }
-    h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        padding:2%
-        }
-    .main-text{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 0%;
-            padding-bottom: 0%;
-            padding:2%
-    }
-    .main-button{
-        display: flex;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        padding-left: 0%;
-        padding-right:0%;
-        width: 100%;
-        color: white;
-        justify-content: center;
-        align-items: center;
-        padding:2%
-    }
-    .topbutton{
-        padding: 1%;
-        transition: 350ms;
-        border-radius: 25px;
-        display: flex;
-        justify-content: center;
-    }
-    .emailbox{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-top:0%;
-        width:60%;
-        height:100%;
-        box-shadow: 2px 2px 2px 2px lightgray;
-    }
-    label{
-        display: flex;
-        flex-direction: column;
-        padding: 1%;
-    }
-    input{
-        padding: 1%;
-    
-    }
-    .submitbutton{
-        display: flex;
-        justify-content: center;
-        width:100%;
-        border-radius: 25px;
-        padding:.5%;
-        color: white;
-    }
 
-    .submitposition{
-        padding-top:2%;
-        padding-bottom:1%;
+    #indextop{
+max-width: 50%;
     }
-    .images{
-        padding-top: 0%;
-        padding-left: 0%;
-        padding-right: 0%;
-        display: flex;
-        flex-direction: row;
+    #indexbottom{
+max-width: 50%;
     }
-    }
-    @keyframes grow-animation {
-        0% { transform: scale(1); }
-        100% { transform: scale(1.1);
-        }
-    }
-    
+#indexflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+   }
