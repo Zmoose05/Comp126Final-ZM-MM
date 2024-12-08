@@ -144,6 +144,24 @@ h2{
     padding-left: 2%;
     padding-right: 2%;
 }
+.servicepositioning{
+    display: flex;
+    flex-direction: row;
+}
+.servicedescription{
+    padding-top: 4%;
+    padding-bottom:4%;
+}
+.servicebuttondirection{
+    padding-top: 4%;
+    padding-bottom:4%;
+}
+.sptext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+}
 label{
     display: flex;
     flex-direction: column;
