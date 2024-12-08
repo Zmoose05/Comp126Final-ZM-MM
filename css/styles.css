@@ -105,18 +105,15 @@ h2{
     padding-bottom: 5%;
 }
 .ehapimage{
-    display: flex;
-    justify-content: center;
     max-width: 75%;
     height: 250px;
-    align-content: center;
-    padding-bottom:5%;
-    padding-left:12.5%;
+    padding-left: 12.5%;
 }
 .segue{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-top: 5%;
 }
 .main-button{
     display: flex;
@@ -194,11 +191,28 @@ padding: 2% 2% 5% 2%;
 input:hover{
     border-color:#ef233c
 }
-
-@keyframes grow-animation {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.1);
-    }
+.jmpictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.vertimages{
+    max-width: 40%;
+    border: 2px solid black;
+}
+.mappic{
+    max-width: 80%;
+    border: 2px solid black;
+}
+.mappositioning{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
 }
 footer{
     background-color: #2B2D42;
