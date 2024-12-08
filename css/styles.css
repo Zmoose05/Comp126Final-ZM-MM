@@ -351,4 +351,15 @@ max-width: 40%;
 .requested-date{
     padding-bottom: 2%;
 }
+
+.topbutton{
+    background-color: #ef233c;
+    color: black;
+    padding: 2%;
+    width: 100px;
+    transition: 150ms;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
  }
