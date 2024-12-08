@@ -277,12 +277,41 @@ p{
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        padding-top: 5%;
 max-width: 40%;
+height: 100%;
     }
     .index3{
         display: flex;
         justify-content: flex-end;
         flex-direction: column-reverse;
 max-width: 40%;
+    }
+    .topsection{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .main-text{
+        padding-bottom: 1%;
+    }
+    .ehapimage{
+        width: 45%;
+        height:20%;
+        padding-bottom: 1%;
+    }
+    h1{
+        padding: 0%;
+    }
+    #padtext{
+        padding-top:1%;
+    }
+    .boxdiv{
+        border: 2px solid black;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    h2{
+        padding-bottom: 1%;
+        text-decoration: underline;
     }
 }
